@@ -1,0 +1,52 @@
+﻿Métriques d'accord — corpus lexical (généré le 2026-09-14 par script_accord.py)
+
+Distributions (n items par classe)
+annotateur,classe 0,classe 1,classe 2,manquants,incertains
+H1,59,117,22,2,11
+H2,86,79,34,1,30
+H3,96,25,79,0,76
+Grok,92,70,38,0,3
+Gemini,102,72,26,0,8
+
+"Accords par paire (kappa de Cohen, IC 95 % bootstrap, graine 20261206, B=2000)"
+paire,n items,accord brut,kappa,IC bas,IC haut
+H1 × H2,198,0.722,0.551,0.46,0.637
+H1 × H3,198,0.419,0.215,0.146,0.287
+H1 × Grok,198,0.606,0.378,0.285,0.473
+H1 × Gemini,198,0.611,0.372,0.278,0.469
+H2 × H3,199,0.523,0.294,0.207,0.38
+H2 × Grok,199,0.623,0.402,0.301,0.503
+H2 × Gemini,199,0.678,0.477,0.376,0.575
+H3 × Grok,200,0.63,0.44,0.349,0.529
+H3 × Gemini,200,0.615,0.416,0.325,0.496
+Grok × Gemini,200,0.825,0.715,0.628,0.801
+
+Alpha de Krippendorff (nominal)
+3 humains,0.314
+3 humains + Grok,0.361
+3 humains + Gemini,0.366
+les 5,0.413
+
+Configurations humaines
+majorité 2-1,108
+unanimité,74
+éclaté / égalité,17
+insuffisant,1
+
+LLM vs majorité humaine (items avec majorité et réponse LLM)
+LLM,n,accord,kappa,P0,R0,F1_0,P1,R1,F1_1,P2,R2,F1_2
+Grok,182,0.681,0.492,0.76,0.83,0.79,0.77,0.62,0.68,0.34,0.46,0.39
+Gemini,182,0.725,0.548,0.73,0.88,0.8,0.8,0.69,0.74,0.45,0.38,0.42
+
+SOUS-ÉCHANTILLON CONSTANT (n=182 : majorité présente + réponse des 2 LLM)
+LLM,n,accord,kappa,P0,R0,F1_0,P1,R1,F1_1,P2,R2,F1_2
+Grok,182,0.681,0.492,0.76,0.83,0.79,0.77,0.62,0.68,0.34,0.46,0.39
+Gemini,182,0.725,0.548,0.73,0.88,0.8,0.8,0.69,0.74,0.45,0.38,0.42
+
+RÉFÉRENCE FINALE (n=200 : majorité humaine complétée par les 18 décisions finales de data/decisions_finales.csv)
+LLM,n,accord,kappa,P0,R0,F1_0,P1,R1,F1_1,P2,R2,F1_2
+Grok,200,0.665,0.468,0.73,0.8,0.76,0.76,0.63,0.69,0.34,0.41,0.37
+Gemini,200,0.715,0.536,0.72,0.87,0.78,0.81,0.69,0.74,0.46,0.38,0.41
+
+Distribution de la référence finale,classe 0,classe 1,classe 2
+n items,84,84,32

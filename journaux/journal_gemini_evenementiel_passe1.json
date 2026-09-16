@@ -1,0 +1,297 @@
+{
+  "sessions": [
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-15T23:01:14.996957+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [
+        {
+          "n": 67,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet critique la difficulté de la question posée à une candidate en utilisant un terme vulgaire mais sans dimension genrée ni sexiste.\"\n\"\n}"
+        }
+      ],
+      "erreurs_techniques": [
+        {
+          "n": 24,
+          "erreur": "[WinError 10053]"
+        },
+        {
+          "n": 33,
+          "erreur": "[WinError 10054]"
+        }
+      ],
+      "date_fin_utc": "2026-07-15T23:55:34.316794+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 102,
+      "nb_refus": 1,
+      "tokens_entree": 172651,
+      "tokens_sortie": 6857,
+      "cout_estime_usd": 0.3207
+    },
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-16T18:35:06.980982+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [
+        {
+          "n": 108,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"Le tweet exprime un compliment esthétique simple et une préférence personnelle dans le cadre de la logique du concours, sans réduction au corps ni propos sexiste.\"\n\"\n}"
+        }
+      ],
+      "erreurs_techniques": [
+        {
+          "n": 33,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 118,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 131,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 132,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 133,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 134,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 136,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 137,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 138,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 139,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 141,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        }
+      ],
+      "date_fin_utc": "2026-07-16T19:17:02.203416+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 45,
+      "nb_refus": 1,
+      "tokens_entree": 57473,
+      "tokens_sortie": 2187,
+      "cout_estime_usd": 0.1059
+    },
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-16T19:19:09.592605+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [
+        {
+          "n": 108,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"Le tweet exprime un compliment esthétique simple et une préférence personnelle dans le cadre de la logique du concours, sans réduction au corps ni propos sexiste.\"\n\"\n}"
+        }
+      ],
+      "erreurs_techniques": [
+        {
+          "n": 131,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 132,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 147,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 149,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 156,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 157,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 160,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 169,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 175,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 178,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 183,
+          "erreur": "[WinError 10054] Une connexion existante a dû être fermée par l’hôte distant"
+        },
+        {
+          "n": 184,
+          "erreur": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+          "n": 185,
+          "erreur": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+          "n": 186,
+          "erreur": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+          "n": 187,
+          "erreur": "[Errno 11001] getaddrinfo failed"
+        },
+        {
+          "n": 188,
+          "erreur": "[Errno 11001] getaddrinfo failed"
+        }
+      ],
+      "date_fin_utc": "2026-07-16T23:10:35.140040+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 67,
+      "nb_refus": 1,
+      "tokens_entree": 87129,
+      "tokens_sortie": 3304,
+      "cout_estime_usd": 0.1604
+    },
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-16T23:13:33.745757+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [
+        {
+          "n": 108,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"Le tweet exprime un compliment esthétique simple et une préférence personnelle dans le cadre de la logique du concours, sans réduction au corps ni propos sexiste.\"\n\"\n}"
+        },
+        {
+          "n": 175,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"L'énoncé exprime une simple satisfaction quant au résultat de l'élection, ce qui relève de la logique du concours sans aucun propos sexiste.\"\n\"\n}"
+        }
+      ],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-16T23:23:27.890472+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 21,
+      "nb_refus": 2,
+      "tokens_entree": 36629,
+      "tokens_sortie": 1409,
+      "cout_estime_usd": 0.0676
+    },
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-16T23:23:41.056131+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [
+        {
+          "n": 175,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"L'énoncé exprime une simple satisfaction quant au résultat de l'élection, ce qui relève de la logique du concours sans aucun propos sexiste.\"\n\"\n}"
+        }
+      ],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-16T23:23:50.264446+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 2,
+      "nb_refus": 1,
+      "tokens_entree": 3504,
+      "tokens_sortie": 139,
+      "cout_estime_usd": 0.0065
+    },
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-16T23:24:00.536607+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [
+        {
+          "n": 175,
+          "motif": "JSON irreparable",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"L'énoncé exprime une simple satisfaction quant au résultat de l'élection, ce qui relève de la logique du concours sans aucun propos sexiste.\"\n\"\n}"
+        }
+      ],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-16T23:24:04.681251+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 1,
+      "nb_refus": 1,
+      "tokens_entree": 1744,
+      "tokens_sortie": 70,
+      "cout_estime_usd": 0.0032
+    },
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-16T23:24:27.123774+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-16T23:24:37.420439+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 1,
+      "nb_refus": 0,
+      "tokens_entree": 1744,
+      "tokens_sortie": 63,
+      "cout_estime_usd": 0.0032
+    }
+  ]
+}

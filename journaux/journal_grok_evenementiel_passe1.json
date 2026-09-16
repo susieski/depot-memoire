@@ -1,0 +1,22 @@
+{
+  "sessions": [
+    {
+      "corpus": "evenementiel #MissFrance2026",
+      "modele_demande": "grok-4.5",
+      "temperature": 0.0,
+      "passe": 1,
+      "api": "xAI https://api.x.ai/v1 (response_format json_object)",
+      "date_debut_utc": "2026-07-15T22:23:00.891870+00:00",
+      "fichier_source": "Annotation_corpus_evenementiel_v3.xlsx",
+      "refus": [],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-15T22:55:03.915975+00:00",
+      "version_modele_api": "grok-4.5",
+      "appels": 200,
+      "nb_refus": 0,
+      "tokens_entree": 390676,
+      "tokens_sortie": 11521,
+      "cout_estime_usd": 0.8505
+    }
+  ]
+}

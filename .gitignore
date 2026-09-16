@@ -1,0 +1,19 @@
+# Données à ne jamais diffuser : texte des tweets et clé de correspondance
+*CLE échantillon*
+*TEXTES échantillon*
+FUSION*.xlsx
+Annotation_corpus_*.xlsx
+annotations *.xlsx
+
+# Secrets
+.env
+*.key
+
+# Sorties d'exécution et fichiers temporaires
+__pycache__/
+*.pyc
+sorties/
+.~lock.*
+~$*
+.DS_Store
+.idea/

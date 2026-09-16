@@ -1,0 +1,344 @@
+{
+  "sessions": [
+    {
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-12T17:38:17.573548+00:00",
+      "fichier_source": "Annotation_corpus_lexical_Annotateur_A_v2_ANNOTE_COMPLET.xlsx",
+      "refus": [
+        {
+          "n": 4,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [6],\n  \"justification\": \"Le tweet critique la gauche et mentionne l'homosexualité sans dimension de genre ou de sexisme, relevant d'une autre thématique sans rapport avec le sexisme.\""
+        },
+        {
+          "n": 10,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'utilisation du terme péjoratif et genré 'bécasse' pour désigner une femme sotte constitue une injure genrée (classe 1).\""
+        },
+        {
+          "n": 13,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet exprime une frustration vulgaire face à des publicités sans aucune cible genrée ni propos sexiste.\""
+        },
+        {
+          "n": 17,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé utilise une insulte genrée ('tanas') et dévalorise un groupe de femmes en les jugeant sur leur valeur conjugale.\""
+        },
+        {
+          "n": 18,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'utilisation de l'insulte genrée 'cruche' pour disqualifier une femme politique relève du sexisme hostile et direct.\""
+        },
+        {
+          "n": 19,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé critique une femme politique sur ses positions et son argumentation sans utiliser de ressorts, d'insultes ou de stéréotypes genrés.\"\n}\n}\n"
+        },
+        {
+          "n": 22,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet est une critique sportive concernant les performances d'un joueur de football masculin, sans aucune dimension de genre ou de sexisme.\"\n}\n}\n"
+        },
+        {
+          "n": 34,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [9],\n  \"justification\": \"L'énoncé profère une injure genrée hostile ('pute') combinée à une moralisation sexuelle ('fille facile'), ce qui relève du sexisme hostile et direct.\"\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}"
+        },
+        {
+          "n": 43,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet contient une injure genrée hostile et directe ('conne') adressée directement à une personne.\"\n}\n}\n"
+        },
+        {
+          "n": 48,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet exprime une frustration et une critique d'incompétence dans un contexte sportif, sans aucune dimension de genre ni ciblage sexiste.\""
+        },
+        {
+          "n": 50,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'utilisation de l'insulte genrée 'pouffe' adressée directement à une personne constitue une injure sexiste hostile et directe.\"\n}\n}\n"
+        },
+        {
+          "n": 68,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé contient des injures genrées dégradantes et une sexualisation crue et hostile adressée directement à une cible individuelle.\""
+        },
+        {
+          "n": 71,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 2,\n  \"incertain\": \"non\",\n  \"codes\": [2],\n  \"justification\": \"L'énoncé utilise l'ironie et le stéréotype de la féministe non épilée pour disqualifier le militantisme féministe, ce qui relève d'un sexisme implicite basé sur les normes corporelles de genre.\""
+        },
+        {
+          "n": 82,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [2],\n  \"justification\": \"L'utilisation du terme 'folle' pour disqualifier une femme politique relève de la pathologisation agressive (classe 1), ici employée sur un ton moqueur ou ironique suggéré par l'émoji (code 2).\""
+        },
+        {
+          "n": 85,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet se défend d'être masculiniste et s'exprime sur des sujets politiques et migratoires sans contenir de propos sexistes.\""
+        },
+        {
+          "n": 97,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé contient une insulte vulgaire accordée au féminin ('sale crasseuse') mais celle-ci n'est pas genrée et ne présente pas de caractère sexiste.\"\n}\n}\n"
+        },
+        {
+          "n": 108,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'utilisation de l'insulte spécifiquement genrée 'grosse conne' pour disqualifier une personne constitue du sexisme hostile et direct.\""
+        },
+        {
+          "n": 109,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé utilise une métaphore dépréciative pour critiquer un entraîneur masculin sur le plan professionnel, sans dimension de genre.\""
+        },
+        {
+          "n": 111,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [2],\n  \"justification\": \"L'expression 'vierge Marie' est employée de manière ironique pour se moquer de la pruderie et de la leçon de morale sexuelle du tweet parent.\""
+        },
+        {
+          "n": 112,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé constitue une injure genrée et une sexualisation crue adressée directement à une cible individuelle.\""
+        },
+        {
+          "n": 116,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"Il s'agit d'une autodescription et d'une appréciation esthétique personnelle sans dimension sexiste ni ciblage d'un tiers.\"\n}\n}\n"
+        },
+        {
+          "n": 120,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé est une critique politique qui utilise des métaphores courantes et des qualificatifs ironiques sans dévalorisation ni discrimination basée sur le genre.\""
+        },
+        {
+          "n": 123,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'expression 'pauvre fille' constitue une insulte genrée visant à disqualifier et dévaloriser directement une cible féminine.\"\n\"\n}"
+        },
+        {
+          "n": 124,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [5],\n  \"justification\": \"L'énoncé formule une généralisation sur la sexualité des hommes ('ils sont tous nymphomanes'), ce qui relève du sexisme envers les hommes (classe 0, code 5).\""
+        },
+        {
+          "n": 125,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet réduit une victime de drame à sa désirabilité sexuelle en utilisant un terme cru et objectivant ('bonnasse'), ce qui relève de la sexualisation crue d'une cible individuelle.\""
+        },
+        {
+          "n": 134,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé utilise le terme genré et péjoratif 'michto' pour exclure cette catégorie de femmes de l'humanité, ce qui constitue une injure sexiste hostile et déshumanisante.\"\n}\n}\n"
+        },
+        {
+          "n": 141,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 2,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé critique collectivement la 'nouvelle génération de femme moderne' en lui reprochant un manque de sagesse et d'altruisme face à la maternité, ce qui relève d'un jugement moralisateur sur la conformité aux attentes de g"
+        },
+        {
+          "n": 142,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Le tweet rapporte de manière neutre une initiative visant à encourager la féminisation du secteur des transports, sans stéréotype ni hostilité.\""
+        },
+        {
+          "n": 150,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Il s'agit d'une expression vulgaire ou argotique visant un homme, sans dimension de genre ni stéréotype sexiste.\"\n}\n}\n"
+        },
+        {
+          "n": 151,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'emploi du terme péjoratif et genré 'poufland' (dérivé de pouffiasse) pour désigner un magasin destiné aux jeunes femmes constitue une injure genrée visant une cible générique.\""
+        },
+        {
+          "n": 155,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [1],\n  \"justification\": \"Le tweet analyse et dénonce de manière critique les attentes contradictoires et sexistes de certains hommes envers les femmes.\""
+        },
+        {
+          "n": 157,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [9],\n  \"justification\": \"L'énoncé combine un rappel à la place sexiste ('Va faire la soupe') et des injures genrées directes ('mégère', 'connasse') visant une femme.\""
+        },
+        {
+          "n": 162,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé contient des injures genrées et sexuelles hostiles visant directement une collègue féminine.\""
+        },
+        {
+          "n": 167,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"oui\",\n  \"codes\": [],\n  \"justification\": \"L'attaque est hostile et vulgaire mais cible l'opinion de l'interlocutrice (qualifiée de misandre) plutôt que son genre en tant que tel.\"\n}\n}"
+        },
+        {
+          "n": 181,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.MAX_TOKENS",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [1],\n  \"justification\": \"Le tweet constitue un contre-discours qui dénonce explicitement les stéréotypes sexistes du message précédent pour défendre le respect des femmes dans le milieu professionnel.\"\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n"
+        },
+        {
+          "n": 182,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé utilise une insulte spécifiquement genrée ('cagoles') pour attaquer et dévaloriser une femme ('Galli') en la comparant à un chien.\""
+        },
+        {
+          "n": 183,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [3],\n  \"justification\": \"Le tweet se contente de rapporter de manière anecdotique l'autodescription intime d'une tierce personne, sans hostilité ni jugement sexiste de la part de l'auteur.\""
+        },
+        {
+          "n": 185,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé contient une sexualisation crue et une formule sexiste ('petite allumeuse') adressées directement à une cible.\"\n}\n}\n"
+        },
+        {
+          "n": 186,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé présente une sexualisation crue et un jugement obscène de désirabilité envers un groupe de femmes, ce qui correspond à la classe 1.\"\n}\n}"
+        },
+        {
+          "n": 187,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [1],\n  \"justification\": \"L'énoncé est un contre-discours protecteur qui dénonce l'adultisation et l'hypersexualisation précoce des enfants, ce qui relève de la classe 0.\"\n}\n}\n"
+        },
+        {
+          "n": 188,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"Il s'agit d'une critique politique et idéologique non genrée visant une figure publique, ce qui correspond à la classe 0.\""
+        },
+        {
+          "n": 190,
+          "motif": "JSON invalide",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 0,\n  \"incertain\": \"non\",\n  \"codes\": [1, 2],\n  \"justification\": \"Le tweet utilise la caricature et l'ironie pour dénoncer et moquer l'attitude sexiste de certains joueurs de jeux vidéo.\"\n}\n}\n"
+        },
+        {
+          "n": 199,
+          "motif": "pas de JSON dans la reponse",
+          "finish_reason": "FinishReason.STOP",
+          "brut": "{\n  \"classe\": 1,\n  \"incertain\": \"non\",\n  \"codes\": [],\n  \"justification\": \"L'énoncé contient une insulte sexuelle hostile ('vas te faire brouter') et une injure genrée ('décérébrée') visant directement une femme.\""
+        }
+      ],
+      "erreurs_techniques": [
+        {
+          "n": 41,
+          "erreur": "Server disconnected without sending a response."
+        }
+      ],
+      "date_fin_utc": "2026-07-12T18:59:24.340108+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 200,
+      "nb_refus": 43,
+      "tokens_entree": 270540,
+      "tokens_sortie": 142962,
+      "cout_estime_usd": 1.6925
+    },
+    {
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-14T19:51:01.160394+00:00",
+      "fichier_source": "Annotation_corpus_lexical_Annotateur_GROK_ANNOTE_COMPLET.xlsx",
+      "refus": [],
+      "erreurs_techniques": [
+        {
+          "n": 10,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 108,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 109,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 111,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 120,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        },
+        {
+          "n": 151,
+          "erreur": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+        }
+      ],
+      "date_fin_utc": "2026-07-14T20:26:36.719888+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 44,
+      "nb_refus": 0,
+      "tokens_entree": 51477,
+      "tokens_sortie": 2611,
+      "cout_estime_usd": 0.1007
+    },
+    {
+      "modele_demande": "gemini-3.5-flash",
+      "temperature": 0.0,
+      "passe": 1,
+      "filtres_securite": "BLOCK_NONE (toutes categories) — decision methodologique, cf. ch. 5",
+      "date_debut_utc": "2026-07-14T20:28:35.222854+00:00",
+      "fichier_source": "Annotation_corpus_lexical_Annotateur_GROK_ANNOTE_COMPLET.xlsx",
+      "refus": [],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-14T20:31:17.912703+00:00",
+      "version_modele_api": "gemini-3.5-flash",
+      "appels": 6,
+      "nb_refus": 0,
+      "tokens_entree": 7953,
+      "tokens_sortie": 398,
+      "cout_estime_usd": 0.0155
+    }
+  ]
+}

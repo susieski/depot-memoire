@@ -1,0 +1,38 @@
+{
+  "sessions": [
+    {
+      "modele_demande": "grok-4.5",
+      "temperature": 0.0,
+      "passe": 1,
+      "api": "xAI https://api.x.ai/v1 (response_format json_object)",
+      "date_debut_utc": "2026-07-15T14:05:46.528677+00:00",
+      "fichier_source": "Annotation_corpus_lexical_Annotateur_GROK_ANNOTE_COMPLET.xlsx",
+      "refus": [],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-15T14:07:44.479330+00:00",
+      "version_modele_api": "grok-4.5",
+      "appels": 12,
+      "nb_refus": 0,
+      "tokens_entree": 19358,
+      "tokens_sortie": 784,
+      "cout_estime_usd": 0.0434
+    },
+    {
+      "modele_demande": "grok-4.5",
+      "temperature": 0.0,
+      "passe": 1,
+      "api": "xAI https://api.x.ai/v1 (response_format json_object)",
+      "date_debut_utc": "2026-07-15T14:27:37.334828+00:00",
+      "fichier_source": "Annotation_corpus_lexical_Annotateur_GROK_ANNOTE_COMPLET.xlsx",
+      "refus": [],
+      "erreurs_techniques": [],
+      "date_fin_utc": "2026-07-15T14:50:41.388675+00:00",
+      "version_modele_api": "grok-4.5",
+      "appels": 188,
+      "nb_refus": 0,
+      "tokens_entree": 293801,
+      "tokens_sortie": 11562,
+      "cout_estime_usd": 0.657
+    }
+  ]
+}

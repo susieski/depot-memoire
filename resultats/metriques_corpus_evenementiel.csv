@@ -1,0 +1,50 @@
+﻿Métriques d'accord : corpus événementiel #MissFrance2026 (généré le 2026-09-14 par script_accord_evenementiel.py)
+
+Distributions (n items par classe)
+annotateur,classe 0,classe 1,classe 2,manquants,incertains
+H1,145,2,53,0,34
+H2,165,4,31,0,12
+H3,180,4,16,0,12
+Grok,163,4,33,0,4
+Gemini,183,3,14,0,5
+majorité humaine,165,3,32,0
+
+"Accords par paire (kappa de Cohen, IC 95 % bootstrap, graine 20261206, B=2000)"
+paire,n items,accord brut,kappa,IC bas,IC haut
+H1 × H2,200,0.88,0.667,0.54,0.78
+H1 × H3,200,0.795,0.371,0.239,0.509
+H1 × Grok,200,0.755,0.329,0.19,0.464
+H1 × Gemini,200,0.765,0.261,0.13,0.408
+H2 × H3,200,0.905,0.612,0.459,0.758
+H2 × Grok,200,0.79,0.304,0.15,0.453
+H2 × Gemini,200,0.85,0.359,0.177,0.53
+H3 × Grok,200,0.81,0.249,0.086,0.412
+H3 × Gemini,200,0.895,0.385,0.168,0.585
+Grok × Gemini,200,0.875,0.484,0.312,0.643
+
+Alpha de Krippendorff (nominal)
+3 humains,0.542
+3 humains + Grok,0.42
+3 humains + Gemini,0.443
+les 5,0.399
+
+Configurations humaines
+unanimité,158
+majorité 2-1,42
+
+LLM vs majorité humaine (items avec majorité et réponse LLM)
+LLM,n,accord,kappa,P0,R0,F1_0,P1,R1,F1_1,P2,R2,F1_2
+Grok,200,0.795,0.319,0.88,0.87,0.88,0.5,0.67,0.57,0.39,0.41,0.4
+Gemini,200,0.85,0.358,0.87,0.96,0.91,1.0,1.0,1.0,0.57,0.25,0.35
+
+SOUS-ÉCHANTILLON CONSTANT (n=200 : majorité présente + réponse des 2 LLM)
+LLM,n,accord,kappa,P0,R0,F1_0,P1,R1,F1_1,P2,R2,F1_2
+Grok,200,0.795,0.319,0.88,0.87,0.88,0.5,0.67,0.57,0.39,0.41,0.4
+Gemini,200,0.85,0.358,0.87,0.96,0.91,1.0,1.0,1.0,0.57,0.25,0.35
+
+"DÉCOUPAGE AVANT/APRÈS COURONNEMENT (avant=100, après=100 ; annonce à 00:45)"
+moment,LLM,n,accord,kappa,P0,R0,F1_0,P1,R1,F1_1,P2,R2,F1_2
+avant,Grok,100,0.69,0.304,0.81,0.76,0.78,0.67,0.67,0.67,0.43,0.5,0.46
+avant,Gemini,100,0.77,0.377,0.79,0.93,0.85,1.0,1.0,1.0,0.62,0.31,0.41
+après,Grok,100,0.9,-0.044,0.94,0.96,0.95,0.0,0.0,0.0,0.0,0.0,0.0
+après,Gemini,100,0.93,-0.017,0.94,0.99,0.96,0.0,0.0,0.0,0.0,0.0,0.0

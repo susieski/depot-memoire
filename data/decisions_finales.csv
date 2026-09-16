@@ -1,0 +1,19 @@
+﻿item,terme_declencheur,decision,motif
+27,planche_à_pain,0,Contexte manquant (code 8)
+60,michtonneuse,1,"Nomination dépréciative adressée, hostilité retenue"
+66,féministes_modernes,2,Disqualification sans hostilité ouverte
+72,névrosée,0,Contexte manquant (code 8)
+74,néo-féminisme,2,"Disqualification idéologique, pas d'hostilité adressée"
+78,bdh,0,Contexte manquant (code 8)
+102,niquer,2,"Mécanisme implicite, hostilité non retenue"
+114,gourde,0,"Annotation insuffisante, polysémie ordinaire retenue"
+120,virginité,1,Hostilité adressée
+124,nymphomane,0,Cible non genrée
+132,friendzone,0,"Usage descriptif, absence de disqualification"
+133,bodycount,0,Contexte manquant (code 8)
+141,femme_moderne,2,"Naturalisation des rôles, sans hostilité apparente"
+145,niquer,2,Domination implicite
+149,lobby_féministe,2,Disqualification sans injure adressée
+165,cagole,0,Mention sans cible genrée
+169,femme_moderne,1,Disqualification adressée
+197,ma_pauvre,0,Contexte manquant (code 8)
